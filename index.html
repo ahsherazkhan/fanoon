@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/fontAwsome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- preloader start -->
+    <div class="preloader">
+        <span></span>
+    </div>
+    <!-- preloader End -->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- Brand -->
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Fanoon</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-scroll-nav="1" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-scroll-nav="2" href="#">Screenshots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-scroll-nav="3" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-scroll-nav="4" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-scroll-nav="5" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Home section start-->
+    <section class="home d-flex align-items-center" id="home" data-scroll-index="0">
+        <div class="effect-wrap">
+            <i class="fas fa-plus effect effect-1"></i>
+            <i class="fas fa-plus effect effect-2"></i>
+            <i class="fas fa-circle-notch effect effect-3"></i>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="home-text">
+                        <h1>A world with art in every home</h1>
+                        <p>Fanoon is the social marketplace that allows you to discover, buy, and sell art. A place for the art-curious and the art-expert, for the art gallery and artist. A new way forward for the art world.</p>
+                        <div class="home-btn">
+                            <a href="#" class="btn btn-1" data-scroll-goto="3">Download App</a>
+                            <button type="button" class="btn btn-1 video-play-button" onclick="video_play()"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="home-img">
+                        <div class="circle"></div>
+                        <img src="img/app-screenshots/1.png" alt="Landing">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Home section End-->
+
+    <!-- Features section Start -->
+    <section class="features section-padding" id="features" data-scroll-index="1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Awesome <span>Features</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel features-carousel">
+                    <div class="features-item">
+                        <div class="icon"><i class="fas fa-code"></i></div>
+                        <h3>Verified Community</h3>
+                        <p>Join a network of artists and enthusiasts who share your passion for creativity. Our community is verified to ensure quality interactions and genuine connections.</p>
+                    </div>
+                    <div class="features-item">
+                        <div class="icon"><i class="fas fa-edit"></i></div>
+                        <h3>Secure Payments</h3>
+                        <p>Enjoy peace of mind with our secure payment system. Your transactions are protected with top-notch encryption and security measures.</p>
+                    </div>
+                    <div class="features-item">
+                        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>Specialized Shipping</h3>
+                        <p>We offer specialized shipping options to ensure your art pieces are delivered safely and promptly, maintaining their quality and integrity.</p>
+                    </div>
+                    <div class="features-item">
+                        <div class="icon"><i class="fas fa-check"></i></div>
+                        <h3>Registered Ownership</h3>
+                        <p>Our platform registers ownership of every piece, giving you confidence and proof of your purchase, adding value and security to your collection.</p>
+                    </div>
+                    <div class="features-item">
+                        <div class="icon"><i class="fas fa-check"></i></div>
+                        <h3>Transparent Pricing</h3>
+                        <p>We believe in transparency. Our pricing is clear and upfront, with no hidden fees, so you can focus on the art without any worries.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Features section End -->
+
+    <!-- fun factes section start -->
+    <section class="fun-facts section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-5">
+                    <div class="fun-facts-img text-center">
+                        <img src="img/app-screenshots/2.png" alt="Fun Facts">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-7">
+                    <div class="section-title">
+                        <h2>Fun <span>Facts</span> </h2>
+                    </div>
+                    <div class="fun-facts-text">
+                        <p>Our art community is thriving and growing every day. Here are some impressive facts and figures about our platform and our dedicated members.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-2">
+                                    <h3>100</h3>
+                                    <span>Artists Featured</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-3">
+                                    <h3>50</h3>
+                                    <span>5-Star Ratings</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="fun-fact-item style-4">
+                                    <h3>07</h3>
+                                    <span>Awards Won</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- fun factes section End -->
+
+
+    <!-- App screenshots section start -->
+    <section class="app-screenshots section-padding" data-scroll-index="2" id="screenshots">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>App <span>Screenshots</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel screenshots-carousel">
+                    <div class="screenshot-item ">
+                        <img src="img/app-screenshots/1.png" alt="screenshots" class="br-3">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="img/app-screenshots/2.png" alt="screenshots" class="br-3">
+                    </div>
+                    <div class="screenshot-item ">
+                        <img src="img/app-screenshots/3.png" alt="screenshots" class="br-3">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="img/app-screenshots/1.png" alt="screenshots" class="br-3">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="img/app-screenshots/2.png" alt="screenshots" class="br-3">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="img/app-screenshots/3.png" alt="screenshots" class="br-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App screenshots section End -->
+
+
+    <!-- video pupup start -->
+    <div class="video-popup" onclick="video_play()">
+        <div class="video-popup-inner">
+            <i class="fas fa-times video-popup-close"></i>
+            <div class="iframe-box">
+                <iframe id="player-1" src="https://www.youtube.com/embed/TzO2zIVHCWw"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </div>
+        </div>
+    </div>
+    <!-- video pupup End -->
+
+    <!-- App Download Section Start -->
+    <section class="app-download section-padding" data-scroll-index="3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Download <span>App</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="app-download-item">
+                        <i class="fab fa-google-play"></i>
+                        <h3>Google Play</h3>
+                        <p>Get our app on Google Play to explore a world of art at your fingertips. Discover, purchase, and enjoy art from the comfort of your Android device.</p>
+                        <a href="#" class="btn btn-2">Download Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="app-download-item">
+                        <i class="fab fa-apple"></i>
+                        <h3>Apple Store</h3>
+                        <p>Download our app from the Apple Store and immerse yourself in the best of art. Seamlessly browse and buy art pieces with your iPhone or iPad.</p>
+                        <a href="#" class="btn btn-2">Download Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- App Download Section End -->
+
+    <!-- how it works section start -->
+    <section class="how-it-works section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>How It <span>Works</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">1</div>
+                        <h3>Download</h3>
+                        <p>Get started by downloading our app from the Google Play, Apple Store, or Microsoft Store. It's quick and easy!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">2</div>
+                        <h3>Create Profile</h3>
+                        <p>Sign up and create your profile to join our community of art lovers. Showcase your interests and preferences.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item line-right">
+                        <div class="step">3</div>
+                        <h3>Search Product</h3>
+                        <p>Browse through our extensive collection of art pieces. Use filters and categories to find exactly what you're looking for.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="how-it-works-item">
+                        <div class="step">4</div>
+                        <h3>Order</h3>
+                        <p>Place your order securely through the app. Track your purchase and enjoy your new art piece in no time!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- how it works section End -->
+
+    <!-- Testimonials section start -->
+    <section class="testimonials section-padding" data-scroll-index="3" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>What Our <span>Clients</span> Say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonials-item">
+                        <div class="img-box">
+                            <img src="img/testimonial/1.jpg" alt="testimonials">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p>"This platform has completely transformed how I buy and sell art. The community is fantastic, and the process is seamless."</p>
+                        <h3>Hatem Saadany</h3>
+                        <span>UI Designer</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-item">
+                        <div class="img-box">
+                            <img src="img/testimonial/2.jpg" alt="testimonials">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p>"I found exactly what I was looking for. The artwork is high quality, and the shipping was fast and secure."</p>
+                        <h3>Sara Al-Ansari</h3>
+                        <span>Art Collector</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-item">
+                        <div class="img-box">
+                            <img src="img/testimonial/3.jpg" alt="testimonials">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p>"As an artist, this platform has given me great exposure and allowed me to connect with buyers worldwide."</p>
+                        <h3>Michael Johnson</h3>
+                        <span>Artist</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-item">
+                        <div class="img-box">
+                            <img src="img/testimonial/4.jpg" alt="testimonials">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p>"The customer service is exceptional, and the app is very user-friendly. Highly recommend to all art enthusiasts."</p>
+                        <h3>Lina Nguyen</h3>
+                        <span>Art Enthusiast</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials section End -->
+
+    <!-- Pricing section start -->
+    <!-- <section class="pricing section-padding" data-scroll-index="4" id="pricing">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>pricing <span>Plan</span> </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">99</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="" class="btn btn-2">Get started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">99</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="" class="btn btn-2">Get started</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-plan">
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="price">99</span>
+                            <span class="period">/monthly</span>
+                        </div>
+                        <div class="pricing-body">
+                            <ul>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                                <li><i class="fas fa-check"></i>5 GB Bandwidth</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="" class="btn btn-2">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Pricing section End -->
+
+    <!-- Team Section Start -->
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Team <span>Member</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="team-item">
+                    <img src="img/team/7.png" height="340px" alt="Team">
+                    <h3>Ahmad Sheraz Khan</h3>
+                    <span>CEO - Software Engineer</span>
+                </div>
+                <div class="team-item">
+                    <img src="img/team/8.jpeg" height="340px" alt="Team">
+                    <h3>Waseek Ahmad</h3>
+                    <span>CTO - Software Engineer</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Faq section Start -->
+    <section class="faq section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Frequently <span>Asked</span> Queries</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div id="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                                <h3>Why Fanoon?</h3>
+                            </div>
+                            <div class="collapse show" id="collapse-01" data-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Fanoon is dedicated to showcasing the rich and diverse art and talent of Pakistan. Our platform is free to use, providing artists with a space to display their work and reach a wider audience. We believe in the power of art to connect people and celebrate cultural heritage.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item">
+                            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                                <h3>Are my payments secure?</h3>
+                            </div>
+                            <div class="collapse" id="collapse-02" data-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Yes, all payments on Fanoon are secure. We use advanced encryption and security protocols to ensure that your transactions are safe and protected. Your trust is important to us, and we strive to provide a secure environment for all users.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item">
+                            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03">
+                                <h3>How to register an account?</h3>
+                            </div>
+                            <div class="collapse" id="collapse-03" data-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Registering an account on Fanoon is simple and free. Just click on the 'Register' button at the top right of the homepage, fill in your details, and start showcasing your art. As a member, you can create a profile, upload your artwork, and connect with other artists and buyers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                                <h3>Does Fanoon deliver outside Pakistan?</h3>
+                            </div>
+                            <div class="collapse" id="collapse-04" data-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Yes, Fanoon supports international delivery. Our goal is to bring Pakistani art to the global stage, and we work with reliable shipping partners to ensure your artwork reaches its destination safely, no matter where you are in the world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-05">
+                                <h3>Is Fanoon free?</h3>
+                            </div>
+                            <div class="collapse" id="collapse-05" data-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Yes, Fanoon is completely free to use. Our mission is to provide a platform for artists to showcase their talent without any financial barriers. We believe in supporting the arts and making it accessible for everyone to appreciate and purchase beautiful artwork.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Faq section End -->
+
+    <!-- Contact section start -->
+    <section class="contact section-padding" data-scroll-index="5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Get in <span>Touch</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="contact-info">
+                        <h3>For Any Queries an d Support</h3>
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Write to us at </h4>
+                            <p>fanoon@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone"></i>
+                            <h4>Call us on</h4>
+                            <p>+923266636909</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Phone" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your subject" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea placeholder="Your message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-2">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section End -->
+
+
+    <!-- Footer section start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>About Us</h3>
+                        <p>Fanoon is a free platform dedicated to showcasing the art and talent of Pakistan. We provide a space for artists to display their work and reach a global audience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Company</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Latest Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#">App Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#" data-scroll-nav="0">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" data-scroll-nav="1">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" data-scroll-nav="2">Screenshots</a>
+                            </li>
+                            <li>
+                                <a href="#" data-scroll-nav="3">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#" data-scroll-nav="4">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" data-scroll-nav="5">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Social Pages</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright-text">&copy;2024 Fanoon Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer section End -->
+
+    <!-- Toggle Theme start ligt and dark mode  -->
+    <div class="toggle-theme">
+        <i class="fas">
+
+        </i>
+    </div>
+    <!-- Toggle Theme End ligt and dark mode-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
