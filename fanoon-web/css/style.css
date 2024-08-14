@@ -13,7 +13,7 @@
   /*a200ff*/
   /* --main-color: #a200ff; */
   /* --main-color: #6419ee; */
-  --main-color: #dd572e;
+  --main-color: #ce4820;
   --color-1: #e91ece;
   --color-2: #f5ae10;
   --color-3: #09d69c;
@@ -254,8 +254,7 @@ ul {
 -------------------*/
 
 .navbar {
-  background-color: rgba(250, 44, 47, 0.8);
-    padding: 20px 0;
+  padding: 20px 0;
   transition: all 0.5s ease;
 }
 
